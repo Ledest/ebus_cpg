@@ -1,0 +1,11 @@
+{application, ebus_cpg, [{description, "CloudI Process Groups adapter for Erlang Message Event Bus"},
+                         {vsn, "0.0.1"},
+                         {id, "ebus_cpg"},
+                         {modules, []},
+                         {registered, []},
+                         {applications, [kernel, stdlib, cpg]},
+                         {mod, {ebus_cpg, []}},
+                         {env, []},
+                         {licenses, ["MIT"]},
+                         {pkg_name, "ebus_cpg"},
+                         {links, [{"GitHub", "https://github.com/Ledest/ebus_cpg"}]}]}.
