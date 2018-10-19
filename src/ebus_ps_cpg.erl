@@ -14,7 +14,7 @@
 %%%   [
 %%%    {pubsub,
 %%%     [
-%%%      {adapter, ebus_ps_pg2},
+%%%      {adapter, ebus_ps_cpg},
 %%%      {pool_size, 5},
 %%%      {name, ebus_ps_test}
 %%%     ]
