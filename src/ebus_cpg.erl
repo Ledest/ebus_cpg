@@ -39,5 +39,5 @@ stop(_State) -> ok.
 server() -> application:get_env(ebus_cpg, name, ?DEFAULT_PS_SERVER).
 
 %% @doc Returns default `ebus_cpg' server name: `ebus_cpg_ps'.
--spec default_ps_server() -> ebus_ps.
+-spec default_ps_server() -> ebus_cpg_ps.
 default_ps_server() -> ?DEFAULT_PS_SERVER.
